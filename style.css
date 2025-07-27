@@ -1,0 +1,105 @@
+/* Main styles */
+body {
+    color: #333;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin-top: 0.5rem;
+    opacity: 0.9;
+    font-size: 1.1rem;
+}
+
+/* Prediction result styles */
+.prediction-high {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: center;
+    border-left: 5px solid #28a745;
+}
+
+.prediction-low {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: center;
+    border-left: 5px solid #dc3545;
+}
+
+/* Form styles */
+.stSelectbox, .stSlider, .stRadio, .stNumberInput {
+    margin-bottom: 1.5rem;
+}
+
+/* Button styles */
+.stButton>button {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Card styles */
+.home-container {
+    background-color: red;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Tab styles */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    padding: 10px 20px;
+    border-radius: 8px 8px 0 0;
+    background-color: #f0f2f6;
+    transition: all 0.3s;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #6e8efb;
+    color: white;
+}
